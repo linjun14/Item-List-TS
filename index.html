@@ -1,13 +1,37 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>item-list-ts</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" />
+  <link rel="stylesheet" href="src\css\style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>item-list-ts</title>
+</head>
+
+<body>
+  <div id="app">
+    <section id="search-section">
+      <input id="search-box" type="text">
+      <button class="btn" id="add-btn">+</button>
+    </section>
+    <section>
+      <div id="list-header">
+        <h1>List</h1>
+        <button class="btn" id="clear-btn">Clear</button>
+      </div>
+      <hr>
+      <ul id="item-list">
+        <div class="list-item">
+          <div>
+            <input type="checkbox" id="item-1">
+            <label for="item-1">thomas</label>
+          </div>
+          <button class="btn del-btn">X</button>
+        </div>
+      </ul>
+    </section>
+  </div>
+</body>
+
 </html>
