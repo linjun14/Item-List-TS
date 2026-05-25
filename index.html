@@ -7,13 +7,15 @@
   <link rel="stylesheet" href="src\css\style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>item-list-ts</title>
+  <script src='src\main.ts' type="module"></script>
 </head>
 
 <body>
   <div id="app">
-    <section id="search-section">
+    <form id="input-form">
       <input id="search-box" type="text">
       <button class="btn" id="add-btn">+</button>
+    </form>
     </section>
     <section>
       <div id="list-header">
@@ -22,13 +24,13 @@
       </div>
       <hr>
       <ul id="item-list">
-        <li class="list-item">
+        <!-- <li class="list-item">
           <div>
             <input type="checkbox" id="item-1">
             <label for="item-1">thomas</label>
           </div>
           <button class="btn del-btn">X</button>
-        </li>
+        </li> -->
       </ul>
     </section>
   </div>

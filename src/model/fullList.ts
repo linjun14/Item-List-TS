@@ -32,9 +32,10 @@ export default class FullList implements List {
 
         parsedList.forEach(itemObj => {
             const newItem = new Item(itemObj._id, itemObj._item, itemObj._checked);
-
-            FullList.instance.addItem(newItem)
+            FullList.instance.addItem(newItem);
         })
+
+        
     }
 
     public save(): void {

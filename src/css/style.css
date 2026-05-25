@@ -13,7 +13,7 @@ body {
   align-items: center;
 }
 
-section {
+section, form {
   border-radius: 10px;
   background-color: rgb(0, 117, 128);
   margin: 10px 0px;
@@ -22,7 +22,7 @@ section {
   min-width: 60%;
 }
 
-#search-section {
+#input-form {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,7 +52,7 @@ section {
   background-color: rgba(240, 255, 255, 0.146);
 }
 
-#add-btn:active, #add-btn:active {
+#add-btn:active, #clear-btn:active {
   background-color: rgba(240, 255, 255, 0.315);
 }
 
